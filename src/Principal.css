@@ -19,7 +19,9 @@
 }
 
 .rodape {
-    /* margin-top: 100%!important; */
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 
@@ -31,8 +33,18 @@
     color: white;
 }
 
-main {
+.center {
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+}
+
+
+/* cards */
+
+.cardsbox {
     display: flex;
     align-items: center;
-    flex-direction: column;
+    justify-content: space-around;
+    width: 1025px;
 }

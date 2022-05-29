@@ -11,7 +11,7 @@ import './animate.min.css'
 <template>
   <div class="tamanho">
 
-   <header class="p-3 bg-dark text-white">
+   <header class="p-3 bg-dark text-white border-bottom">
     <div class="container">
       <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
         <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
@@ -38,12 +38,18 @@ import './animate.min.css'
   </header>
 
 <main>
-<Card/>
+  <div class='center'>
+  <div class="cardsbox">
+    <Card Imagem = 'https://super.abril.com.br/wp-content/uploads/2020/06/18-06_Dark_SITE.jpg'/>
+   <Card Imagem = 'https://s1.static.brasilescola.uol.com.br/be/conteudo/images/imagem-em-lente-convexa.jpg'/>
+   <Card Imagem = 'https://static.preparaenem.com/2021/12/imagem-invertida-esfera.jpg'/>
+</div>
+</div>
 </main>
 
 
-<div class="border-top">
-<div class="container rodape ">
+<div class="rodape border-top">
+<div class="container ">
   <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 ">
     <div class="col-md-4 d-flex align-items-center">
       <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
