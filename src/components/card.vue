@@ -6,7 +6,7 @@ export default {
 
 
 <template>
-  <div class="card border border-dark bg-dark bg-gradient rounded " style="width: 18rem;">
+  <div class="card border border-secondary bg-transparent rounded " style="width: 18rem;">
     <img :src="Imagem" class="card-img-top" alt="...">
     <div class="card-body">
       <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque illum impedit unde, aspernatur, minus omnis voluptatum.</p>
