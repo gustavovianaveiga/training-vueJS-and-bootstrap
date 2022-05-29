@@ -2,6 +2,7 @@
 import '../bootstrap.min.css'
 import '../animate.min.css'
 import '../Principal.css'
+
 </script>
 
 <template>
@@ -33,10 +34,15 @@ import '../Principal.css'
       </div>
     </div>
   </header>
-<main><h1>hello world</h1></main>
 
-<div class="container rodape">
-  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+<main>
+<h1>Hello World!</h1>
+</main>
+
+
+<div class="border-top">
+<div class="container rodape ">
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 ">
     <div class="col-md-4 d-flex align-items-center">
       <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
         <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
@@ -50,6 +56,7 @@ import '../Principal.css'
       <img src="https://iconape.com/wp-content/files/yd/367773/svg/logo-linkedin-logo-icon-png-svg.png" class="githubicon" alt="">
     </ul>
   </footer>
+</div>
 </div>
 
 </div>
