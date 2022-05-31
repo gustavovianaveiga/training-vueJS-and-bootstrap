@@ -40,15 +40,15 @@ import './assets/bootstrap.min.css'
 
       <div class="mainglobal bg-dark text-light">
       <div class='container d-flex flex-row justify-content-center'>
-          <Card Imagem = 'https://super.abril.com.br/wp-content/uploads/2020/06/18-06_Dark_SITE.jpg'/>
+          <!-- <Card Imagem = 'https://super.abril.com.br/wp-content/uploads/2020/06/18-06_Dark_SITE.jpg'/>
           <Card Imagem = 'https://s1.static.brasilescola.uol.com.br/be/conteudo/images/imagem-em-lente-convexa.jpg'/>
-          <Card Imagem = 'https://static.preparaenem.com/2021/12/imagem-invertida-esfera.jpg'/>
+          <Card Imagem = 'https://static.preparaenem.com/2021/12/imagem-invertida-esfera.jpg'/> -->
       </div>
       </div>
 
 
 
-  <footer class="rodape border-top container d-flex flex-wrap justify-content-between align-items-center py-3 bg-dark">
+  <footer class="rodape border-top d-flex flex-wrap justify-content-between align-items-center py-3 bg-dark">
     <div class="col-md-4 d-flex align-items-center">
       <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
         <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
